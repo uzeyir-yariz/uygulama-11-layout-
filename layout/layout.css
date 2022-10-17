@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: bisque;
+    flex: 1 1 140px;
+}
+
+main{
+    background-color: antiquewhite;
+    flex: 1 1 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+main > article{
+    background-color: blue;
+    flex: 5 1 400px;
+}
+
+main > nav{
+    background-color: blueviolet;
+    flex: 1 1 200px;
+}
+
+footer{
+    background-color: bisque;
+    flex: 1 1 140px;
+}
